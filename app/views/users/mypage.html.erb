@@ -4,3 +4,4 @@
 <%= @user.name %>
 <h3>メールアドレス</h3>
 <%= @user.email %>
+<%= gravatar_image_tag @user.email, size: 200 %>
